@@ -1,2 +1,2 @@
-hello_world: Hello world demo: hello.py
-context: Edit files in your console with conText!: main_min.py
+hello_world: Hello, world: Hello world demo: hello.py
+context: conText: Edit files in your console with conText!: main_min.py
