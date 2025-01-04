@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>404</title>
+    </head>
+    <body>
+        <h1>404</h1>
+        <fieldset>
+            <legend>Info</legend>
+            <p>The requested file does not exist here.<br>
+            Requested URL: <code>
+                <b>
+                    <span id="url"></span>
+                </b>
+            </code><br>
+            Time accessed: <code>
+                <b>
+                    <span id="date"></span>
+                </b>
+            </code></p>
+        </fieldset>
+        <script>
+            const date = new Date();
+            document.getElementById("url").innerHTML = location.href;
+            document.getElementById("date").innerHTML = date;
+            document.title = `404 Error - ${location.href}`;
+        </script>
+    </body>
+</html>
